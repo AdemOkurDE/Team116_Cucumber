@@ -6,3 +6,15 @@ Feature: US1001 Nutella arama testi
     Then arama kutusuna Nutella yazip, Enter tusuna basar
     And arama sonuclarinin Nutella icerdigini test eder
     And sayfayi kapatir
+
+  Scenario: TC02 Kullanici amazonda Samsung aratabilmeli
+    Given kullanici amazon anasayfaya gider
+    Then arama kutusuna Samsung yazip, Enter tusuna basar
+    And arama sonuclarinin Samsung icerdigini test eder
+    And sayfayi kapatir
+
+  Scenario: TC03 Kullanici amazonda Java aratabilmeli
+    Given kullanici amazon anasayfaya gider
+    Then arama kutusuna Java yazip, Enter tusuna basar
+    And arama sonuclarinin Java icerdigini test eder
+    And sayfayi kapatir
