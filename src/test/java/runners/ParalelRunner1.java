@@ -21,5 +21,5 @@ import org.junit.runner.RunWith;
 
 public class
 
- +ParalelRunner1 {
+ ParalelRunner1 {
 }
