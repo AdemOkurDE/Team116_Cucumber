@@ -18,8 +18,8 @@ public class AutomationExerciseStepdefinitions {
     public void user_sign_up_linkine_tiklar() {
         autoExercisePage.ilkSignupButonu.click();
     }
-    @Given("user Create an account bölümüne email adresi girer")
-    public void user_create_an_account_bölümüne_email_adresi_girer() {
+    @Given("user Create an account bolumune email adresi girer")
+    public void user_create_an_account_bolumune_email_adresi_girer() {
 
 
         autoExercisePage.nameKutusu.sendKeys(faker.name().username());
